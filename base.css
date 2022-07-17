@@ -1,0 +1,105 @@
+@charset "utf-8";
+/*===============================================
+リセット
+===============================================*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin: 0; padding: 0;} table{ border-collapse: collapse; border-spacing: 0;} img{ border: none; vertical-align: bottom;} address,caption,cite,code,dfn,em,strong,th,var{ font-style:normal; font-weight:normal;} article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ display: block;}
+a{ text-decoration: none; color: #111111;} a:hover{ text-decoration: underline;} label{ cursor: pointer;}
+/*===============================================
+共通
+===============================================*/
+
+
+
+div#test{
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  /* borderに関する設定 */
+  border: 20px solid; 
+ 
+  /* メイン表示エリアの線の太さだけ下にずらす */
+  margin-bottom: -1px;
+ 
+  /* その他の設定 */
+  text-align: center;
+  /* 基本的なサイズの設定 */
+  padding: 20px;
+ 
+  /* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+
+  /* コンテンツを見やすく表示 */
+  margin-left: 1124px;
+  margin-top: -221px;
+  position: relative;
+  z-index: 1000;
+}
+
+div#test2{
+  color: rgb(255, 0, 0);
+  line-height: 1.6;
+  font-size: 20px;
+  /* borderに関する設定 */
+  border: 1px solid; /* 線の太さと可視化 */
+ 
+  /* メイン表示エリアの線の太さだけ下にずらす */
+  margin-bottom: -1px;
+ 
+  /* その他の設定 */
+  text-align: center;
+  /* 基本的なサイズの設定 */
+  padding: 20px;
+ 
+  /* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+
+  /* コンテンツを見やすく表示 */
+  margin-top: 1.5px;
+  margin-left: 1124px;
+
+  position: relative;
+  z-index: 1000;
+}
+
+#tester{
+  font-size: 20px;
+  /* borderに関する設定 */
+  border: 1px solid; /* 線の太さと可視化 */
+ 
+  /* メイン表示エリアの線の太さだけ下にずらす */
+  margin-bottom: -1px;
+ 
+  /* その他の設定 */
+  position: relative;
+  text-align: center;
+  /* 基本的なサイズの設定 */
+ 
+  /* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+
+  /* コンテンツを見やすく表示 */
+  margin-top: 0px;
+  margin-left: 0px;
+
+  z-index: 10000;
+}
+
+div#tekitou{
+  width: 70rem;
+}
+
+#setting{
+  font-size: 20px;
+  /* borderに関する設定 */
+  border: 1px solid; 
+
+  /* 基本的なサイズの設定 */
+  
+ 
+  /* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+
+  width: 1082px;
+  height: 32px;
+  padding: 20px;
+  z-index: 100;
+}
